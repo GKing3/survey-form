@@ -1,0 +1,1 @@
+This survey form is used to gather valuable insights and feedback from users regarding their preferences and experiences with music websites. With the data collected, the owners aim to enhance the platform and provide an even better user experience taking into account the audience needs and interests.
