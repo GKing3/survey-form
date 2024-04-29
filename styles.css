@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 100, 0.5)), url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 2rem;
+}
+
+p {
+    padding-bottom: 1.3rem;
+}
+
+form {
+    background-color: #1b1b3288;
+    width: 60vw;
+    max-width: 700px;
+    min-width: 500px;
+    margin: 1em auto 0;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    padding-bottom: 2rem;
+}
+
+label p {
+    text-align: start;
+    padding-bottom: 0;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+input, select, textarea {
+    width: 100%;
+    min-height: 2.8em;
+    margin-top: 0.4rem;
+    padding-left: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type='radio'], input[type='checkbox'] {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.4rem;
+}
+
+button {
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: darkgreen;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
